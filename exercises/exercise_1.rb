@@ -5,17 +5,17 @@ puts "----------"
 
 ### Exercise 1: Create 3 stores
 
-burnaby = Store.create(name:"Burnaby",
+burnaby = Store.create!(name:"Burnaby",
 annual_revenue: 300000,
 womens_apparel: true,
 mens_apparel: true)
 
-richmond = Store.create(name:"Richmond",
+richmond = Store.create!(name:"Richmond",
 annual_revenue: 1260000,
 womens_apparel: true,
 mens_apparel: false)
 
-gastown = Store.create(name:"Gastown",
+gastown = Store.create!(name:"Gastown",
 annual_revenue: 190000,
 womens_apparel: false,
 mens_apparel: true)
